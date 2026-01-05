@@ -19,7 +19,7 @@ struct WelcomeView: View {
 
                 titleSection
                 .padding(.top, 24)
-                
+
                 policyLinks
 
             }
