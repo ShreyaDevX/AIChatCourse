@@ -43,5 +43,5 @@ struct OnboaringIntroView: View {
     NavigationStack {
         OnboaringIntroView()
     }
-   
+
 }
