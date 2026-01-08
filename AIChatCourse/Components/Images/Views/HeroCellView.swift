@@ -32,7 +32,7 @@ struct HeroCellView: View {
                     Text(subTitle)
                         .font(.subheadline)
                 }
-                
+
             }
             .foregroundStyle(.white)
             .padding(16)
@@ -52,29 +52,26 @@ struct HeroCellView: View {
 }
 
 #Preview {
-   
+
         ScrollView {
             VStack {
             HeroCellView()
                 .frame(width: 300, height: 200)
-            
+
             HeroCellView(imageName: nil)
                 .frame(width: 300, height: 200)
-            
+
             HeroCellView(title: nil)
                 .frame(width: 300, height: 400)
-            
-            
+
             HeroCellView(title: nil)
                 .frame(width: 300, height: 200)
-            
+
             HeroCellView(subTitle: nil)
                 .frame(width: 300, height: 200)
-            
-            
-            
+
         }
     }
     .frame(maxWidth: .infinity)
-    
+
 }
